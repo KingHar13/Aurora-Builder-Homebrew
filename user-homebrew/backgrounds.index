@@ -8,6 +8,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="background-adopted.xml" url="https://raw.githubusercontent.com/KingHar13/Aurora-Builder-Homebrew/master/user-homebrew/background-adopted.xml" />
+		<file name="background-adopted.xml" url="https://raw.githubusercontent.com/KingHar13/Aurora-Builder-Homebrew/master/user-homebrew/backgrounds/background-adopted.xml" />
 	</files>
 </index>
