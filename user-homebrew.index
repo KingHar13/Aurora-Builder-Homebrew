@@ -14,7 +14,7 @@
 		<!-- classes -->
 
 		<!-- backgrounds -->
-		<obsolete name="background-adventurer.xml" url="https://raw.githubusercontent.com/KingHar13/Aurora-Builder-Homebrew/master/user-homebrew/backgrounds/background-adopted.xml" />
+		<obsolete name="background-adopted.xml" url="https://raw.githubusercontent.com/KingHar13/Aurora-Builder-Homebrew/master/user-homebrew/backgrounds/background-adopted.xml" />
 
 		<!-- feats -->
 	
