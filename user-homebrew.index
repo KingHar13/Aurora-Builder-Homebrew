@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>User Homebrew</name>
+		<description>Content added in by user.</description>
+		<update version="0.0.1">
+			<file name="user-homebrew.index" url="https://raw.githubusercontent.com/kinghar13/aurora-builder-homebrew/master/user-homebrew.index" />
+		</update>
+	</info>
+	<files>
+		<obsolete name="sources.xml" url="https://raw.githubusercontent.com/kinghar13/aurora-builder-homebrew/master/user-homebrew/sources.xml" />
+		<obsolete name="background.index" url="https://raw.githubusercontent.com/kinghar13/aurora-builder-homebrew/master/user-homebrew/dnd-wiki.index" />
+		<!-- races -->
+
+		<!-- classes -->
+
+		<!-- backgrounds -->
+		<obsolete name="background-adventurer.xml" url="https://raw.githubusercontent.com/kinghar13/aurora-builder-homebrew/master/user-homebrew/backgrounds/background-adopted.xml" />
+
+		<!-- feats -->
+	
+		<!-- spells -->
+
+		<!-- items -->
+
+	</files>
+</index>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Adopted Background</name>
+		<description>Basic background of the Adopted, children who are picked up.</description>
+		<author url="https://www.dandwiki.com/wiki/Adopted_(5e_Background)#Adopted/">Homebrew</author>
+		<update version="0.0.1">
+			<file name="background-adopted.xml" url="https://raw.githubusercontent.com/kinghar13/aurora-builder-homebrew/master/user-homebrew/backgrounds/adopted.xml" />
+		</update>
+	</info>
+
+	<element name="Adopted" type="Background" source="User" id="ID_HJ_HB_BACKGROUND_ADOPTED">
+		<description>
+			<p>You grew up in a family that have a somewhat different appearance from you. This could have been from being stolen, sold, lost and found, switched at birth, or maybe your parent/s even died from childbirth or war. Whatever the reason you are in a family different from you. For how long did you know they are not your blood family? Give a lot of thought to what makes you a unique orphan that was adopted. What kind of a harsh life did you endure on the streets until adoption? Were you way too old to be adopted even, and it was pure luck and grace some kind-hearted person took you in? Have you bounced around from orphanage to orphanage and built yourself a reputation as trouble child, still able to be adopted miraculously? Were you a victim of domestic abuse and a great fight broke out over adopting you? Are your birth parents even still alive? Did you maybe see them perish before your eyes or see them leave you as a helpless vagabond? After you have your past figured out, think about how you interact with your current family on a deeper level. Do you commonly feel out of place with them, usually preferring to spend time away from any foster siblings you may have? Do you rarely tell your foster parents of your problems and sneak around the house, unable to feel at home? Or do you act normal and accept it?</p>
+			<ul>
+				<li><strong>Skill Proficiencies:</strong> Deception, Persuasion, Stealth</li>
+				<li><strong>Languages:</strong> Choose any starting or exotic language</li>
+				<li><strong>Equipment:</strong> A set of common clothes matching the style worn by your current family, something of a trinket left from your birth parents (cannot be worth more than 5gp) and pouch with 10gp.</li>
+			</ul>
+			<h5>Adopted Family</h5>
+			<p>Who is your adopting family? How did you meet or how do you fare with them?</p>
+			<table>
+				<thead>
+					<tr> <td>d10</td> <td>Adopting Race</td> </tr>
+				</thead>
+				<tr> <td>1</td> <td>I was kidnapped as a child and sold to slavery until I ended up in my current home.</td> </tr>
+				<tr> <td>2</td> <td>I was left behind in migration and lost until a friendly traveler picked me up to raise as his own.</td> </tr>
+				<tr> <td>3</td> <td>War tore me apart from my family. Rescue efforts landed me a home with the people I now call family.</td> </tr>
+				<tr> <td>4</td> <td>I was curious and got lost looking at something in the bustling city. The person who owned what interested me took me in.</td> </tr>
+				<tr> <td>5</td> <td>My old family abandoned me when they took me out to town and never came back to fetch me. A kindly family saw me crying and took me in.</td> </tr>
+				<tr> <td>6</td> <td>I was found in a wreck with no memory. The person who found me was nice and raised me.</td> </tr>
+				<tr> <td>7</td> <td>My current parents actually stole me from another crib.</td> </tr>
+				<tr> <td>8</td> <td>A disaster cost me my family. I was destitute until a nice couple took me in.</td> </tr>
+				<tr> <td>9</td> <td>I was found on the doorstep at the gate of the city.</td> </tr>
+				<tr> <td>10</td> <td>I was dishonorably disowned and wandered until I ended up with a house that took me in warmly.</td> </tr>
+			</table>
+			<h5>SUGGESTED CHARACTERISTICS</h5>
+			<p>Adopted children can be seen as little devils or victims of circumstance in stories like Cinderella. Consider what kind of mischievous or angelic adopted child your character is.</p>
+		</description>
+		<setters>
+            <set name="short"> Deception, Persuasion, Stealth, Language</set>
+        </setters>
+		<rules>
+			<select type="Proficiency" name="Skill Proficiency (Adopted)" supports="ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_STEALTH" number="3" />
+			<select type="Language" name="Language (Adopted)" supports="Standard||Exotic" />
+			<select type="Background Feature" supports="ID_HJ_HB_BACKGROUND_FEATURE_TRUST_ISSUES|ID_HJ_HB_BACKGROUND_FEATURE_NO_DISCRIMINATION" />
+			<select name="Personality Trait" type="List" number="2">
+				<item id="1">I love learning about new things, partially about other races and sub-races work.</item>
+				<item id="2">I will often change the way my voice sounds just for fun.</item>
+				<item id="3">I enjoy puzzles and thinking things through.</item>
+				<item id="4">I can find the most childish things entertaining.</item>
+				<item id="5">I am always polite, and use my manners.</item>
+				<item id="6">I often feel lonely, even when many others are nearby.</item>
+				<item id="7">I sometimes awaken feeling a sense of lingering emotion, from a dream I can never remember.</item>
+				<item id="8">I always felt out of place, like a swan raised by ducks, or maybe a duck raised by swans…</item>
+			</select>
+			<select name="Ideal" type="List">
+				<item id="1">Amusement. If there isn’t any fun in doing something then why do it (chaotic)</item>
+				<item id="2">Belonging. Everyone should know where they belong (good)</item>
+				<item id="3">Rule-follower. Regardless as to what you are, everyone should follow the rules (lawful)</item>
+				<item id="4">Vengeance. For all that happened at my birth, there will be blood to pay (Evil)</item>
+				<item id="5">Opinions. Everyone is entitled to their own opinions, of course this includes myself (Any)</item>
+				<item id="6">Whatever. Everyone just does what they want anyway (neutral)</item>
+			</select>
+			<select name="Bond" type="List">
+				<item id="1">What happened at my birth, I know it is important somehow.</item>
+				<item id="2">I must find my birth parents, they have to be out there.</item>
+				<item id="3">How can I know another, when I don’t even know myself?</item>
+				<item id="4">I’m not just another of my race/sub-race, I will prove my worth.</item>
+				<item id="5">What does this mean, this [insert item from birth family], I must know.</item>
+				<item id="6">All I want is to find a place where I belong.</item>
+			</select>
+			<select name="Flaw" type="List">
+				<item id="1">I hoard what’s mine, and am quite possessive. I find it hard to allow others to touch my things, or even give away/sell an item of mine.</item>
+				<item id="2">I am aware of how different I am to those around me, making it hard for myself when I try to get close to others.</item>
+				<item id="3">I am a passive person (I will lose so you can win), I will do almost anything to avoid conflict with others, and will run and hide if people start yelling.</item>
+				<item id="4">I am an aggressive person (For me to win you have to lose), quick to anger, and will keep pressing until I get my way, or making the other person seem at fault.</item>
+				<item id="5">Trusting people just isn't my thing. Forget about even becoming friends.</item>
+				<item id="6">I have a habit of lying about the most insignificant things.</item>
+			</select>
+			<select name="Adopted Family" type="List">
+				<item id="1">I was kidnapped as a child and sold to slavery until I ended up in my current home.</item>
+				<item id="2">I was left behind in migration and lost until a friendly traveler picked me up to raise as his own.</item>
+				<item id="3">War tore me apart from my family. Rescue efforts landed me a home with the people I now call family.</item>
+				<item id="4">I was curious and got lost looking at something in the bustling city. The person who owned what interested me took me in.</item>
+				<item id="5">My old family abandoned me when they took me out to town and never came back to fetch me. A kindly family saw me crying and took me in.</item>
+				<item id="6">I was found in a wreck with no memory. The person who found me was nice and raised me.</item>
+				<item id="7">My current parents actually stole me from another crib.</item>
+				<item id="8">A disaster cost me my family. I was destitute until a nice couple took me in.</item>
+				<item id="9">I was found on the doorstep at the gate of the city.</item>
+				<item id="10">I was dishonorably disowned and wandered until I ended up with a house that took me in warmly.</item>
+			</select>
+		</rules>
+	</element>
+	<element name="Feature: Trust Issues" type="Background Feature" source="User" id="ID_HJ_HB_BACKGROUND_FEATURE_TRUST_ISSUES">
+		<supports>Background Feature</supports>
+		<description>
+            <p>People of your birth race, and of the race of your adoptive family (with the possible exception of you family/s) find it harder to trust you. Those of the race you are will take longer to trust you because they think you have been corrupted or on the side of the race of your adoptive family and no longer share their values. People who are the same race of your adoptive family may take longer to trust you because they believe that you will always be one of your race, no matter how you were brought up. Due to this ostracization, races that are not of your birth or adopted tend to take you with a bit more kindness.</p>
+        </description>
+		<sheet alt="Trust Issues" />
+	</element>
+	<element name="Feature: No Discrimination" type="Background Feature" source="User" id="ID_HJ_HB_BACKGROUND_FEATURE_NO_DISCRIMINATION">
+		<supports>Background Feature</supports>
+		<description>
+            <p>You often see trivial differences between the various races that you encounter. You know that the race itself doesn’t decide who a person will be. You know all types of personalities of creatures you talk with after just an exchange of few words.</p>
+        </description>
+		<sheet alt="No Discrimination" />
+	</element>
+</elements>
