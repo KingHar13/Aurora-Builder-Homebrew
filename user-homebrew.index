@@ -3,7 +3,7 @@
 	<info>
 		<name>User Homebrew</name>
 		<description>Content added in by user.</description>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="user-homebrew.index" url="https://raw.githubusercontent.com/KingHar13/Aurora-Builder-Homebrew/master/user-homebrew.index" />
 		</update>
 	</info>
@@ -14,7 +14,7 @@
 		<!-- classes -->
 
 		<!-- backgrounds -->
-		<file name="background-adopted.xml" url="https://raw.githubusercontent.com/KingHar13/Aurora-Builder-Homebrew/master/user-homebrew/backgrounds/background-adopted.xml" />
+		<file name="backgrounds.index" url="https://raw.githubusercontent.com/KingHar13/Aurora-Builder-Homebrew/master/user-homebrew/backgrounds/background.index" />
 
 		<!-- feats -->
 	
