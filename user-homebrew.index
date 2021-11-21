@@ -21,6 +21,6 @@
 		<!-- spells -->
 
 		<!-- items -->
-
+		<file name="items.index" url="https://raw.githubusercontent.com/KingHar13/Aurora-Builder-Homebrew/master/user-homebrew/items.index" />
 	</files>
 </index>

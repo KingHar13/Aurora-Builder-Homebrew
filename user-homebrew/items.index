@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>User Homebrew</name>
+		<description>Content added in by user.</description>
+		<update version="0.0.1">
+			<file name="items.index" url="https://raw.githubusercontent.com/KingHar13/Aurora-Builder-Homebrew/master/user-homebrew/items.index" />
+		</update>
+	</info>
+	<files>
+		
+	</files>
+</index>
