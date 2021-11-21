@@ -5,7 +5,7 @@
 		<description>Basic background of the Adopted, children who are picked up.</description>
 		<author url="https://www.dandwiki.com/wiki/Adopted_(5e_Background)#Adopted/">Homebrew</author>
 		<update version="0.0.1">
-			<file name="background-adopted.xml" url="https://raw.githubusercontent.com/kinghar13/aurora-builder-homebrew/master/user-homebrew/backgrounds/adopted.xml" />
+			<file name="background-adopted.xml" url="https://raw.githubusercontent.com/KingHar13/Aurora-Builder-Homebrew/master/user-homebrew/backgrounds/adopted.xml" />
 		</update>
 	</info>
 

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.2.2">
-			<file name="sources.xml" url="https://raw.githubusercontent.com/kinghar13/aurora-builder-homebrew/master/user-homebrew/sources.xml" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/KingHar13/Aurora-Builder-Homebrew/master/user-homebrew/sources.xml" />
 		</update>
 	</info>
 </elements>

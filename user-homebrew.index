@@ -4,18 +4,17 @@
 		<name>User Homebrew</name>
 		<description>Content added in by user.</description>
 		<update version="0.0.1">
-			<file name="user-homebrew.index" url="https://raw.githubusercontent.com/kinghar13/aurora-builder-homebrew/master/user-homebrew.index" />
+			<file name="user-homebrew.index" url="https://raw.githubusercontent.com/KingHar13/Aurora-Builder-Homebrew/master/user-homebrew.index" />
 		</update>
 	</info>
 	<files>
-		<obsolete name="sources.xml" url="https://raw.githubusercontent.com/kinghar13/aurora-builder-homebrew/master/user-homebrew/sources.xml" />
-		<obsolete name="background.index" url="https://raw.githubusercontent.com/kinghar13/aurora-builder-homebrew/master/user-homebrew/dnd-wiki.index" />
+		<obsolete name="sources.xml" url="https://raw.githubusercontent.com/KingHar13/Aurora-Builder-Homebrew/master/user-homebrew/sources.xml" />
 		<!-- races -->
 
 		<!-- classes -->
 
 		<!-- backgrounds -->
-		<obsolete name="background-adventurer.xml" url="https://raw.githubusercontent.com/kinghar13/aurora-builder-homebrew/master/user-homebrew/backgrounds/background-adopted.xml" />
+		<obsolete name="background-adventurer.xml" url="https://raw.githubusercontent.com/KingHar13/Aurora-Builder-Homebrew/master/user-homebrew/backgrounds/background-adopted.xml" />
 
 		<!-- feats -->
 	
